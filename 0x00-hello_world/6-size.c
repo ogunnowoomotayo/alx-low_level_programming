@@ -4,7 +4,7 @@
  * main - Entry point
  * Return: 0 (Success)
  */
-int main (void)
+int main(void)
 {
 	printf("size of char:%zu bytes\n", sizeof(char));
 	printf("size of int:%zu bytes\n", sizeof(int));
