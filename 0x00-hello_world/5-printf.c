@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-int main()
+int main(void)
 {
 	printf("This is a piece of art, follow by a new line.\n");
-	return 0;
+	return (0);
 }
