@@ -30,6 +30,6 @@ int main(void)
 		putchar(',');
 		putchar(' ');
 	}
-	num3++
+	num3++;
 	return (0);
 }
