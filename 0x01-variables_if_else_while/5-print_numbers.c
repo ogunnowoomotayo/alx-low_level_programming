@@ -10,11 +10,12 @@ int main(void)
 {
 
 	/* your code goes there */
-	int n;
+	int number = 0;
 
-	for (n = 0; n <= 10	; n++)
+	while (number < 10)
 	{
-		putchar("%i, n);
+		putchar(number + '0');
+		number++;
 	}
 	putchar('\n');
 	return (0);
