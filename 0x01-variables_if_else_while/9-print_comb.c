@@ -17,7 +17,7 @@ int main(void)
 
 		while (num_1 <= 9)
 		{
-			putchar("%d%d, ", num, num_1);
+			putchar(num, num_1);
 			num_1++;
 		}
 		num++;
