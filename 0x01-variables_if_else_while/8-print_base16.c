@@ -20,7 +20,7 @@ int main(void)
 
 	while (base_16 <= 'f')
 	{
-		putchar(base_16)
+		putchar(base_16);
 		base_16++;
 	}
 	putchar('\n');
