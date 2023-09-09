@@ -11,10 +11,10 @@ int main(void)
 	char f = 'z';
 
 	/* your code goes there */
-	while (f >= 'z')
+	while (f >= 'a')
 	{
 		putchar(f);
-		f++;
+		f--;
 	}
 	putchar('\n');
 	return (0);
