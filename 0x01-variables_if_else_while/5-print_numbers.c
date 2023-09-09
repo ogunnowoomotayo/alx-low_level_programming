@@ -12,7 +12,7 @@ int main(void)
 	/* your code goes there */
 	char n;
 
-	for (n = 0, n <= 10, n++)
+	for (n = '0', n <= '10', n++)
 	{
 		putchar("%i, n);
 	}
