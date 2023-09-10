@@ -8,28 +8,25 @@
  */
 int main(void)
 {
-	int num = 0;
+	int num = 0, num2 =1;
 
 	/* your code goes there */
-	while (num <= 7)
 	{
 		int num2 = num + 1;
-	}
-	while (num2 <= 8)
-	{
-		int num3 = num2 + 1;
-	}
-	while (num3 <= 9)
-	{
+		while (num <= 8)
+		{
+			
 		putchar(num + '0');
 		putchar(num2 + '0');
-		putchar(num3 + '0');
+		if (num != 8 || num2 != 9)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+		num2++;
+		}
+		num++;
 	}
-	if (num != 7 || num2 != 8 || num3 != 9)
-	{
-		putchar(',');
-		putchar(' ');
-	}
-	num3++;
+	putchar('\n');
 	return (0);
 }
