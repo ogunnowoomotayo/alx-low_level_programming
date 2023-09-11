@@ -13,7 +13,7 @@ int main(void)
 	while (num <= 8)
 	{
 		num1 = num + 1;
-		while (nu2 <= 9)
+		while (num2 <= 9)
 		{
 			num2 = num1 + 1;
 			while (num2 <= 9)
@@ -26,11 +26,11 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
-				num2++
+				num2++;
 			}
-			num1++
+			num1++;
 		}
-		num++
+		num++;
 	}
 	putchar('\n');
 	return (0);
