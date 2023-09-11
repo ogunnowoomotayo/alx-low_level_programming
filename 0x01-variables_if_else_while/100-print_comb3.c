@@ -8,23 +8,23 @@
  */
 int main(void)
 {
-	int num = 0, num2 = 1;
+	int num = 0, num1 = 1;
 
 	/* your code goes there */
 	while (num <= 8)
 	{
-		int num2 = num + 1;
+		int num1 = num + 1;
 
-	while (num2 <= 9)
+	while (num1 <= 9)
 	{
 		putchar(num + '0');
-		putchar(num2 + '0');
-		if (num != 8 || num2 != 9)
+		putchar(num1 + '0');
+		if (num != 8 || num1 != 9)
 		{
 			putchar(',');
 			putchar(' ');
 		}
-		num2++;
+		num1++;
 	}
 	num++;
 	}
