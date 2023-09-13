@@ -1,13 +1,8 @@
-#include "main.h"
-#include <unistd.h>
+#ifndef MAIN_H
+#define MAIN_H
+int _putchar(char c);
+int main(void);
+print_alphabet();
 
-/**
- *_putchar - writes the character c to stdout
- *@c: the character to be printed 
- *
- *Return: On success 1
- */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+*endif
+
