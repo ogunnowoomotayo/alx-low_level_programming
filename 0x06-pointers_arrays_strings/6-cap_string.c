@@ -8,11 +8,9 @@
 
 char *cap_string(char *p)
 {
-	int i, j;
+	int i = 0, j;
 
-	i = 0;
-
-	char l[13]  = {',', ';', '.', '!', '?', '"',
+	char lin[13]  = {',', ';', '.', '!', '?', '"',
 		'(', ')', '{', '}', ' ', '\n', '\t'};
 
 	while (p[i] != '\0')
@@ -25,7 +23,7 @@ char *cap_string(char *p)
 
 		while (j < 13)
 		{
-			if (p[i] == l[j])
+			if (p[i] == lin[j])
 			{
 				if (p[i + 1] >= 'a' && p[i + 1] <= 'z')
 				{
