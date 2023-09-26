@@ -10,5 +10,27 @@
 
 unsigned int _strspn(char *s, char *accept)
 {
-	int p =
+	int p, f;
+
+	unsigned int counter = 0;
+
+	for (p = 0; s[p] != '\0'; p++)
+	{
+		int len = 0;
+
+		for (f = 0; accept[f] != '\0'; f++)
+		{
+			if (s[p] == accept[f])
+			{
+				counter++;
+				len += 1;
+				break;
+			}
+		}
+		if (!len)
+		{
+			break;
+		}
+	}
+	return (counter);
 }
