@@ -21,6 +21,7 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
+		printf("Error, incorrect argument \n");
 		return (1);
 	}
 	return (0);
