@@ -31,6 +31,10 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		n = k;
 	}
 	new_string = malloc(m + n + 1);
+	if (new_string == NULL)
+	{
+		return (NULL);
+	}
 	strcpy(new_string, s1);
 	strncat(new_string, s2, n);
 	return (new_string);
