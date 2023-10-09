@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * main - program that multiply two positive number
+ * @argc: parameter 1
+ * @argv: parameter 2
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
 {
 	int j, i;
