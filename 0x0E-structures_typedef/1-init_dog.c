@@ -1,4 +1,5 @@
 #include "main.h"
+#define DOG_H
 
 /**
  * init_dog - function that intialize variable
