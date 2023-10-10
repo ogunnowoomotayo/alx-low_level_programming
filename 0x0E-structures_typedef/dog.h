@@ -8,6 +8,7 @@
  * @owner: 3rd element
  */
 
+typedef struct dog dog_t;
 struct dog
 {
 	char *name;
