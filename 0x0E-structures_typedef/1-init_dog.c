@@ -1,5 +1,5 @@
 #include "main.h"
-#define DOG_H
+#include "dog.h"
 
 /**
  * init_dog - function that intialize variable
@@ -7,7 +7,7 @@
  * @name: 2 parameter
  * @age: 3rd parameter
  * @owner: 4th parameter
- * Return: zero
+ * Return: void
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
