@@ -2,6 +2,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - program that print minimum number coin
+ * @argc: number of count
+ * @argv: parameter holding the array
+ * Return: 0
+ */
+
 int main(int argc, char *argv[])
 {
 	int num, g, ttol;
